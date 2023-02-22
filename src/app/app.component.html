@@ -10,8 +10,11 @@
     <br>
     <img [src]="imgSrc" alt="imagen" width="400px" height="400px">
   </div>-->
-  <h3>{{ texto }}</h3>
-  <button class="btn btn-primary" (click)="cambiarTexto()">
+  <!--<h3>{{ texto }}</h3>-->
+  <!--<button class="btn btn-primary" (click)="cambiarTexto()">
     Click Me
-  </button>
+  </button>-->
+  <input type="text" class="form-control" placeholder="Escriba algo aqui" [(ngModel)]="texto">
+  <br>
+  {{ texto }}
 </div>
